@@ -2,7 +2,7 @@
 **build**
 **egg-info**
 **dist**
-# data/
+data/
 *.pyc
 venv/
 *.idea/
