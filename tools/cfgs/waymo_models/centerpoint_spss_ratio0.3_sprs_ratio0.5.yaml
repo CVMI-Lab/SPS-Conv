@@ -12,7 +12,7 @@ MODEL:
     BACKBONE_3D:
         NAME: VoxelPruningResBackBone8x_SPSS_SPRS
         POINT_CLOUD_RANGE: [-2, -75.2, -75.2, 4, 75.2, 75.2]
-        VOXEL_SIZE: [0.1, 0.1, 0.15]
+        VOXEL_SIZE: [0.15, 0.1, 0.1]
         PRUNING_MODE: topk
         PRUNING_RATIO: [[0.3, 0.3], [0.3, 0.3], [0.3, 0.3], [0.3, 0.3]]
         DOWNSAMPLE_PRUNING_MODE: topk
