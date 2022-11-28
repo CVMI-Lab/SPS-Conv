@@ -127,12 +127,9 @@ class SpatialPrunedSubmConvBlock(spconv.SparseModule):
 
         # conv
         x = x.replace_feature(x.features * voxel_importance)
-        if self.mask_caculate_mode == "avg_pool":
-            x_nim = self.avg_pool(x)
-            x_im = self.conv_block(x)
-        else:
-            x_nim = x
-            x_im = self.conv_block(x)
+        x_nim = x
+        x_im = self.conv_block(x)
+        
         # mask feature
         out = self._combine_feature(x_im, x_nim, mask_position)
         
