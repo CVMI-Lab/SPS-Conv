@@ -106,10 +106,10 @@ bash scripts/dist_test.sh ${NUM_GPUS} --cfg_file ${PATH_TO_CONFIG_FILE} --ckpt $
 If you find this project useful in your research, please consider citing:
 
 ```
-@article{liu2022spatial,
+@inproceedings{liu2022spatial,
   title={Spatial Pruned Sparse Convolution for Efficient 3D Object Detection},
   author={Liu, Jianhui and Chen, Yukang and Ye, Xiaoqing and Tian, Zhuotao and Tan, Xiao and Qi, Xiaojuan},
-  journal={arXiv preprint arXiv:2209.14201},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2022}
 }
 ```
